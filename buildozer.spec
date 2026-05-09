@@ -1,0 +1,28 @@
+[app]
+
+title = Modi Snake Game
+
+package.name = modisnake
+
+package.domain = org.modisnake.game
+
+source.dir = .
+
+source.include_exts = py,png,wav,mp3
+
+version = 1.0
+
+requirements = python3,kivy
+
+orientation = portrait
+
+fullscreen = 1
+
+android.permissions = INTERNET
+
+android.archs = arm64-v8a, armeabi-v7a
+
+[buildozer]
+
+log_level = 2
+warn_on_root = 1
